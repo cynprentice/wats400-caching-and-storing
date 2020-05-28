@@ -10,7 +10,7 @@ API.interceptors.request.use(function (config) {
     // Set common parameters for each request to the API.
 
     // TODO: Use your own APPID for OpenWeatherMap.org
-    config.params.APPID = 'YOUR_APPID_HERE';
+    config.params.APPID = '0fcfca40631380ed07008b6e3e0f1b42';
     config.params.units = 'imperial';
 
     return config;
